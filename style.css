@@ -10,6 +10,14 @@
     opacity: 0.9;
 }
 
+h2{
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
 /* Navigation Styles */
 
 .header {
@@ -63,4 +71,34 @@
 .mission-container-text {
     margin: auto;
     width: 100%;
+}
+
+.mission-container-text h2 {
+    padding: 10px;
+}
+
+.mission-container-text h4 {
+    padding-bottom: 5px;
+}
+
+/* Feature Styling */
+
+.featured-text h2 {
+    padding-bottom: 10px;
+}
+
+.featured-container {
+    max-width: 1000px;
+    height: auto;
+    padding-top: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-container .featured-pic {
+    max-height: 200px;
+    max-width: 300px;
+    padding: 10px;
 }
